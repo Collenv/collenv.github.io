@@ -175,3 +175,18 @@ body.dark-mode {
   background-color: #444;
   color: white;
 }
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  background-color: #222;
+  padding: 10px;
+  margin: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px;
+}
